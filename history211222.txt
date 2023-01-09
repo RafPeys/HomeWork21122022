@@ -1,0 +1,12 @@
+   0 echo ''#! /bin/bash
+   1 mkdir /tmp/rafael
+   2 touch /tmp/rafael/file.txt
+   3 date >> /tmp/rafael/file.txt 
+   4 echo it works! >> /tmp/rafael/file.txt 
+   5 cp /tmp/rafael/file.txt /opt'' > script.sh
+   6 chmod u+x script.sh
+   7 ./script.sh
+   8 mv script.sh /bin/script
+   9 cat /tmp/rafael/file.txt 
+  10 ls /opt/
+  11 history > history211222.txt
